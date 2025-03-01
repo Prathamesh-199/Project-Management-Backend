@@ -1,58 +1,70 @@
-# Project Management Tool
+# 🛠️ Project Management Backend
 
-Welcome to the **Project Management Tool**, a powerful backend solution built with Express.js to manage projects, tasks, teams, calendar events, and reports efficiently.
-
----
-
-## Features
-
- - Retrieve a list of **projects** with status and progress tracking  
- - Manage **tasks** with priority levels and assigned members  
- - Access **teams** with detailed member lists  
- - View **calendar events** including project deadlines and meetings  
- - Generate **reports** on project progress, team performance, and feedback  
+Welcome to the **Project Management Tool (Backend)**, a Node.js and Express.js-powered API for managing projects, tasks, teams, and reports.
 
 ---
 
-## Technologies Used
+## 🚀 Features
 
-- **Node.js** - Backend runtime environment  
-- **Express.js** - Fast and minimalist web framework  
-- **CORS** - Middleware for secure cross-origin resource sharing  
+- 🔹 API for managing projects, tasks, teams, and reports
+- 🔹 Calendar event management for deadlines and meetings
+- 🔹 RESTful endpoints for seamless frontend integration
 
 ---
 
-## Installation & Setup
+## 🧰 Tech Stack
 
-### 1) Clone the repository:
+- **Node.js** - Backend runtime
+- **Express.js** - Fast web framework
+- **CORS** - Middleware for cross-origin resource sharing
+
+---
+
+## 🏗️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
 ```sh
-git clone https://github.com/your-repo/project-management-api.git
-cd project-management-api
+git clone https://github.com/Prathamesh-199/Project-Management-Backend.git
+cd Project-Management-Backend
 ```
 
-### 2) Install dependencies:
+### 2️⃣ Install Dependencies
+
 ```sh
 npm install
 ```
 
-### 3) Start the Server:
+### 3️⃣ Start the Server
+
 ```sh
-npm run dev
+node server.js
 ```
-The server will start on **`http://localhost:5000`**. 🎯
+
+The server will run on `http://localhost:5000`.
 
 ---
 
-## Project Structure
+## 📡 API Endpoints
+
+- **Projects**: `GET /api/projects`
+- **Tasks**: `GET /api/tasks`
+- **Teams**: `GET /api/teams`
+- **Calendar Events**: `GET /api/calendar`
+- **Reports**: `GET /api/reports`
+
+---
+
+## 📂 Project Structure
+
 ```
 backend/
-│── server.js    # Main backend logic
-│── package.json # Dependencies & scripts
-│── README.md    # Documentation
+├── server.js       # Main backend logic
+├── package.json    # Dependencies & scripts
+└── README.md       # Documentation
 ```
-
 
 ---
 
-🎉 **Happy Coding!** 🚀
+🎉 **Build, deploy, and manage projects effortlessly!** 🚀
 
